@@ -1,3 +1,5 @@
-/django_lookups/__pycache__/
-/tests/__pycache__/
+__pycache__/
 /dist/
+*.pyc
+.tox/
+/poetry.lock
