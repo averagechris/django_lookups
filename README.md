@@ -28,3 +28,6 @@ class Order(models.Model):
 
 
 Once you add this library as a dependency, and have created your first lookup model, you'll need to run a [data migration](https://docs.djangoproject.com/en/3.1/topics/migrations/#data-migrations) to add the lookup values to your table, or add data to your lookup tables manually. Once the data is there, your code can work with this data by name. No more need to keep constants libraries in sync when you add a new type/status etc!
+
+
+This library is on pypi so you can run `pip install django_lookups` to get started or add it with the package manager of your choice.
