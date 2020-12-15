@@ -22,7 +22,5 @@ jobs:
         version: 1.1.4
     - name: poetry install dependencies
       run: poetry install
-    - name: use tox-gh-actions
-      uses: ymyzk/tox-gh-actions@v2.2.0
     - name: run tests with tox
       run: poetry run tox
