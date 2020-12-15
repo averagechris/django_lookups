@@ -1,5 +1,6 @@
-import pytest
 from django.db import models
+import pytest
+
 from django_lookups.models import LookupModel
 
 

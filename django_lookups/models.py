@@ -48,7 +48,9 @@ class LookupModel(models.Model):
             ("model_class",), (field.name for field in cls._meta.fields)
         )
         member_class = make_dataclass(
-            f"{cls.__name__}MemberElement", member_fields, frozen=True,
+            f"{cls.__name__}MemberElement",
+            member_fields,
+            frozen=True,
         )
         cls._members = cls.enum(
             f"{cls.__name__}Members",

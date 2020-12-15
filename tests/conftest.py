@@ -1,5 +1,5 @@
-import pytest
 from django.db import connection
+import pytest
 
 
 @pytest.fixture
