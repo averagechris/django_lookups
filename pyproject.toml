@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-lookups"
-version = "0.1.2"
+version = "0.1.3"
 description = ""
 authors = ["mistahchris <chris@thesogu.com>"]
 license = "UNLICENSE"
@@ -12,6 +12,7 @@ homepage = "https://github.com/mistahchris/django_lookups"
 keywords = ["django", "lookup table", "model"]
 
 classifiers = [
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
